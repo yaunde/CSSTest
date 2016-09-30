@@ -60,13 +60,15 @@
 
 /*(8)全屏背景*/
 html{
-	background: url('images/bg.jpg') no-repeat center center fixed;
+	background: url('') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size:cover;
 	-moz-background-size:cover;
 	background-size: cover;
 }
-
+html{
+	background: url('../img/bg.gif') repeat center center fixed;
+}
 
 /*(9)垂直居中内容*/
 .container{
